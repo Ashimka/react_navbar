@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Nav from "./nav/Nav";
+import Nav from "../nav/Nav";
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
         <div className="header-wrap">
           <div className="header__logo">
             <img
-              src={require("../header/www.png")}
+              src={require("./images/www.png")}
               alt="logo"
               className="header-img"
             />
@@ -23,7 +23,7 @@ function Header() {
               rel="noreferrer"
               className="contact__link">
               <img
-                src={require("../header/whatsapp.png")}
+                src={require("./images/whatsapp.png")}
                 alt="whatsapp"
                 className="contacts__img"
               />
@@ -34,7 +34,7 @@ function Header() {
               rel="noreferrer"
               className="contact__link">
               <img
-                src={require("../header/github.png")}
+                src={require("./images/github.png")}
                 alt="github"
                 className="contacts__img"
               />
