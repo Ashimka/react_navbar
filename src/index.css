@@ -40,3 +40,11 @@ code {
 .p-t {
   padding-top: 90px;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.main {
+  flex: 1 1 auto;
+}
