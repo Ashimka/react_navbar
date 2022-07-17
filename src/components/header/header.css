@@ -42,7 +42,8 @@
   display: flex;
   justify-content: flex-end;
 }
-.nav__list {
+.nav__list,
+.nav-mobile__list {
   display: flex;
   justify-content: flex-end;
   gap: 30px;
